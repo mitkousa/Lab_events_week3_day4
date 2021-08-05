@@ -5,3 +5,6 @@ event2 = Event("12-08-2021", "Birthday Party", 50, "Isla", "50th Birthday Party 
 event3 = Event("14-09-2021", "Christianing", 40, "Bute", "Christianing of baby Max")
 
 events = [event1, event2, event3]
+
+def add_new_event(new_event):
+    events.append(new_event)
